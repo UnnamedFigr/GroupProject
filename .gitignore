@@ -1,0 +1,65 @@
+# Compiled source files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Java
+*.jar
+*.war
+*.ear
+
+# IDEs and editors
+# JetBrains IDEs
+.idea/
+*.iml
+# VS Code
+.vscode/
+# Eclipse
+*.project
+*.classpath
+*.settings/
+*.metadata/
+# NetBeans
+nbproject/
+# IntelliJ
+out/
+
+# Build directories
+dist/
+build/
+target/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Package managers
+package-lock.json
+yarn.lock
+
+# ASP.NET Core
+bin/
+obj/
