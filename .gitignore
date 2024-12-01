@@ -63,3 +63,6 @@ yarn.lock
 # ASP.NET Core
 bin/
 obj/
+
+# Visual Studio
+.vs/
