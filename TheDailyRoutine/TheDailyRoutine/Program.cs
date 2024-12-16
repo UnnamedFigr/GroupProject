@@ -13,6 +13,9 @@ builder.Services.AddRazorPages();
 builder.Services.AddScoped<IHabitService, HabitService>();
 builder.Services.AddScoped<IUserHabitService, UserHabitService>();
 builder.Services.AddScoped<IHabitProgressService, HabitProgressService>();
+builder.Services.AddScoped<INotificationService, NotificationService>();
+
+//ioc container
 
 var app = builder.Build();
 
